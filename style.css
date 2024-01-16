@@ -8,6 +8,7 @@
 
 body {
     background-color: #334455;
+
 }
 .form-container {
     display: flex;
@@ -49,44 +50,64 @@ input  {
 }
 
 .form-input {
+    border: 8px solid #112233;
+    background-color: #8899AA;
     margin: 10px;
     height: 1.5rem;
     width: 50rem;
+    border-radius: 8px;
 }
 
 .key-verse {
     font-size: 36px;
 }
-#title-input {
-    background-color: #8899AA;
-    border: 8px solid #112233;
-    
-}
+
 #flagship-verse-input {
-    background-color: #8899AA;
-    border: 8px solid #112233;
     height: 6rem;
-    width: 100%;
+    width: 50rem;
 }
 
-.theme-box {
-    /* background-color: #353333; */
-    
-
-}
-/* .verse-box {
-    background-color: #112233;
-    display: flex;
-    justify-content: center;
-} */
-
-.btn--style {
-    background-color: #04AA6D;
+.btn-main {
     padding: 15px 15px;
-    text-align: center;
     font-size: 14px;
+    margin: 5px;
+}
+.btn--style {
+    background-color: #112233;
+    text-align: center;
     color: #FFFFFF;
     border-radius: 9px;
+}
+
+#add-row-btn {
+    padding: 10px;
+    background-color: #112233;
+    width: 10%;
+    align-self: center;
+}
+
+#section-title {
+    margin: 10px;;
+}
+
+/* #sections-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+#dynamic-section-creator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
