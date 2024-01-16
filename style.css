@@ -1,10 +1,14 @@
 * {
     margin:0;
     padding:0;
-    background-color: #667788;
-    color: #000000;
+    background-color: inherit;
+    /* color: #000000; */
+    
 }
 
+body {
+    background-color: #334455;
+}
 .form-container {
     display: flex;
     flex-direction: column;
@@ -53,21 +57,28 @@ input  {
 .key-verse {
     font-size: 36px;
 }
+#title-input {
+    background-color: #8899AA;
+    border: 8px solid #112233;
+    
+}
 #flagship-verse-input {
+    background-color: #8899AA;
+    border: 8px solid #112233;
     height: 6rem;
     width: 100%;
 }
 
 .theme-box {
-    background-color: #353333;
+    /* background-color: #353333; */
     
 
 }
-.verse-box {
-    background-color: #353333;
+/* .verse-box {
+    background-color: #112233;
     display: flex;
     justify-content: center;
-}
+} */
 
 .btn--style {
     background-color: #04AA6D;
@@ -78,3 +89,38 @@ input  {
     border-radius: 9px;
 }
 
+.logo {
+    width: 150px;
+    height: 75px;
+}
+
+
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+    width:98%;
+    
+}
+
+.nav-list > * {
+    margin: 5px;
+
+    
+}
+
+#nav-link {
+    color: white;
+}
+.logo {
+    flex-grow: 1;
+}
+
+nav{
+    background-color: #112233;
+}
