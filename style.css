@@ -40,9 +40,8 @@ input  {
 }
 
 .msg-title {
-    font-size: xx-large;
-
-    
+    font-size: 48px;
+    font-weight: 900; 
 }
 
 .form-input {
@@ -51,8 +50,23 @@ input  {
     width: 50rem;
 }
 
+.key-verse {
+    font-size: 36px;
+}
 #flagship-verse-input {
     height: 6rem;
+    width: 100%;
+}
+
+.theme-box {
+    background-color: #353333;
+    
+
+}
+.verse-box {
+    background-color: #353333;
+    display: flex;
+    justify-content: center;
 }
 
 .btn--style {
@@ -63,3 +77,4 @@ input  {
     color: #FFFFFF;
     border-radius: 9px;
 }
+
