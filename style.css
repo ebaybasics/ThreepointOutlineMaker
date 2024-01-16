@@ -18,6 +18,7 @@ input  {
 
 ::placeholder {
     color: #000000;
+    text-align: center;
 }
 
 .hero {
@@ -34,17 +35,31 @@ input  {
     margin: 10px;
 }
 
+.heading {
+    text-align: center;
+}
+
 .msg-title {
     font-size: xx-large;
-    text-align: center;
+
     
-}
-.key-verse {
-    text-align: center;
 }
 
 .form-input {
     margin: 10px;
     height: 1.5rem;
     width: 50rem;
+}
+
+#flagship-verse-input {
+    height: 6rem;
+}
+
+.btn--style {
+    background-color: #04AA6D;
+    padding: 15px 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-radius: 9px;
 }
